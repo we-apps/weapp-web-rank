@@ -1,0 +1,23 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 100%;
+  height: 620rpx;
+  margin: 40rpx;
+}
+
+.user-describe {
+  color: #aaa;
+  font-size: 36rpx;
+  margin-bottom: 30rpx;
+}
+
+.user-nickname {
+  color: blue;
+  font-size: 40rpx;
+  margin-bottom: 30rpx;
+}

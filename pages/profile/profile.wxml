@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="user" bindtap="getUserInfo">
+    <image class="user-avatar" src="{{ userInfo.avatarUrl }}" mode="aspectFit"/>
+    <text class="user-describe"> {{ userInfo.describe }} </text>
+    <text class="user-nickname">{{ userInfo.nickName }}</text>
+    <button size="mini" type="primary" bindtap="goToUrl">我的简书</button>
+  </view>
+</view>
+
+

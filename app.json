@@ -1,0 +1,28 @@
+{
+  "pages": ["pages/index/index", "pages/profile/profile", "pages/out/out"],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "前端排行榜",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#f8f9fb",
+    "list": [
+      {
+        "text": "榜单",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
+      }
+    ]
+  }
+}
