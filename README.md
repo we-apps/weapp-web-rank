@@ -6,7 +6,7 @@
 
 >  或者您可以 "follow" 一下，我会不断开源更多的有趣的项目
 
->  传送门1：[angulat4后台管理系统](https://github.com/Alex-0407/ng4-grace)
+>  传送门1：[vue2-admin-grace优雅的后台管理系统](https://github.com/Alex-0407/vue2-admin-grace)
 
 >  传送门2：[ionic3自定义组件及常用例子](https://github.com/alex-0407/ionic3-awesome)
 
