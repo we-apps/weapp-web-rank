@@ -2,6 +2,15 @@ page {
   background: #f7f8fa;
 }
 
+/* .slide swiper {
+  height: 480rpx;
+} */
+
+.slide swiper image {
+  height: 100%;
+  width: 100%;
+}
+
 .button__container {
   text-align: center;
   padding-top: 12px;
@@ -21,9 +30,9 @@ page {
 }
 
 .rank__banner {
-  background-image: linear-gradient(135deg, #79f1a4, #0e5cad);
+  /* background-image: linear-gradient(135deg, #79f1a4, #0e5cad); */
   color: #fff;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .rank__title {

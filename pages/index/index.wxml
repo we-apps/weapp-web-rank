@@ -4,12 +4,21 @@
     <button size="mini" type="warn" class="button__left" bindtap="getHotData">热门</button>
     <button size="mini" type="primary" class="button__right" bindtap="getTrendData">趋势</button>
     </view>
-    <view class="rank__item rank__item--first">
+    <!-- <view class="rank__item rank__item--first">
       <image lazy-load="true" class="rank__icon rank__icon--first" src="{{rankList[0].icon}}" />
       <view class="rank__info">
         <view class="rank__name">{{rankList[0].name}}</view>
         <view class="rank__detail">{{rankList[0].detail}}</view>
       </view>
+    </view> -->
+    <view class="slide">
+    <navigator style="z-indxe: 9999" target="miniProgram" open-type="navigate" app-id="wx684e5da21e3a9366" path="pages/index/index" extra-data="" version="release">
+    </navigator>
+    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" bindchange="bindChange" catchtap="onswipetap">
+      <swiper-item wx:for="{{ stars }}" wx:key="id">
+        <image src="{{ item.image }}" mode="aspectFill"/>
+      </swiper-item>
+    </swiper>
     </view>
   </view>
   <view class="rank__list">
@@ -18,7 +27,7 @@
           wx:for-item="rank"
           wx:for-index="index"
           wx:key="id"
-          wx:if="{{index > 0}}"
+          wx:if="{{index >= 0}}"
           data-index="{{index}}"
           bindtap="tapRankItem">
       <view class="rank__no">{{index + 1}}</view>
